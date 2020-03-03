@@ -21,7 +21,7 @@ class Aktivitas extends CI_Controller {
 		if($this->session->userdata('jenismember') == "Asrut")
 			$this->resetAsrut();
 		
-//		$this->load->view('template', $data);
+		$this->load->view('template', $data);
 	}
 	function transMem($error){
 		$data['content'] = 'main/activity/transaksi';
