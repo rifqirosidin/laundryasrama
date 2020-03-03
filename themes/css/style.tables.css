@@ -1,0 +1,33 @@
+
+/*
+ * Table
+ */
+table.uiTable {
+	width: 100%;
+	margin-top: 10px;
+	padding: 1px;
+	text-align:center;
+	border: solid 1px #ccc;
+}
+
+table.uiTable th{
+	padding: 3px 0px 3px 0px;
+	font-weight: bold;
+	background-color:#ccc;
+	border: solid 1px #ccc;
+	color:#000;
+}
+
+table.uiTable td {
+	padding: 3px 3px;
+	border-bottom: dotted 1px #ccc;
+}
+
+#uiTable a{
+	color: #317B8A;
+	font-weight: bold;
+}
+
+#uiTable a:hover{
+	color: #000;
+}

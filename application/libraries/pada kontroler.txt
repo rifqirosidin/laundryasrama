@@ -1,0 +1,4 @@
+$this->load->library('export');
+$this->load->model('mymodel');
+$sql = $this->mymodel->myqueryfunction();
+$this->export->to_excel($sql, 'nameForFile'); 

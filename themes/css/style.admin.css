@@ -1,0 +1,12 @@
+#bgadmin{
+	background:url(../img/Bottom_texture.png);
+}
+.adminlogin{
+	background:url(../img/block_c.png);
+	height: auto;
+	width: 350px;
+	padding: 25px 5px 10px 5px;
+	border: solid 2px #ccc;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #ccc;
+}

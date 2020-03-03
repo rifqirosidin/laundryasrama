@@ -1,0 +1,389 @@
+.loginbox{
+	background: #fff;
+	height: auto;
+	width: 350px;
+	padding: 25px 5px 10px 5px;
+	border: solid 2px #ccc;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #ccc;
+}
+.attention{
+	text-decoration:blink;
+	color:#C30;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#top_time {
+	padding: 5px 3px 0px 3px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#logout {
+	padding: 5px 15px 0px 15px;
+}
+#logout a{
+	height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #BF2C1B;
+	padding-left:20px;
+	background:url(../img/icon/separator.png) left bottom no-repeat;
+}
+#logout a:hover{
+	color: #4F4A11;
+}
+
+fieldset{
+	padding: 10px 20px 25px 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 5px;
+}
+legend{
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0px 10px 0px 10px;
+}
+textarea{
+	resize: none;
+}
+
+a.view,
+a.add,
+a.edit,
+a.delete,
+a.confirm,
+a.back,
+a.print,
+a.rawat,
+a.stok,
+a.pesan,
+a.job,
+a.sms,
+a.crm,
+a.empty,
+a.move,
+a.add-user{
+	font-size: 10pt;
+	font-weight:bold;
+	padding-left:22px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #8CD241 !important;
+}
+a.view:hover,
+a.add:hover,
+a.edit:hover,
+a.delete:hover,
+a.confirm:hover,
+a.back:hover,
+a.print:hover,
+a.rawat:hover,
+a.stok:hover,
+a.pesan:hover,
+a.job:hover,
+a.sms:hover,
+a.crm:hover,
+a.empty:hover,
+a.move:hover,
+a.add-user:hover{
+	cursor: pointer;
+	color: #B3E281 !important;
+}
+a.view {
+	background:url(../img/icon/view.png) left center no-repeat;
+}
+a.add {
+	background:url(../img/icon/add.png) left center no-repeat;
+}
+a.edit {
+	background:url(../img/icon/edit.png) left center no-repeat;
+}
+a.delete {
+	background:url(../img/icon/del.png) left center no-repeat;
+}
+a.confirm {
+	background:url(../img/icon/confirm.png) left center no-repeat;
+}
+a.back {
+	background:url(../img/icon/back.png) left center no-repeat;
+}
+a.print {
+	background:url(../img/icon/print.png) left center no-repeat;
+}
+a.rawat {
+	background:url(../img/icon/rawat.png) left center no-repeat;
+}
+a.stok {
+	background:url(../img/icon/stok.png) left center no-repeat;
+}
+a.pesan {
+	background:url(../img/icon/pesan.png) left center no-repeat;
+}
+a.job {
+	background:url(../img/icon/job.png) left center no-repeat;
+}
+a.crm {
+	background:url(../img/icon/sms.png) left center no-repeat;
+}
+a.sms {
+	background:url(../img/icon/sms.png) left center no-repeat;
+}
+a.empty {
+	background:url(../img/icon/empty.png) left center no-repeat;
+}
+a.move {
+	background:url(../img/icon/move.png) left center no-repeat;
+}
+a.add-user {
+	background:url(../img/icon/add-user.png) left center no-repeat;
+}
+
+div.kinerja {
+	font-weight:bold;
+	padding-left:22px;
+	background:url(../img/icon/active.png) left center no-repeat;
+}
+
+/*
+Back to top button 
+*/
+#back-top {
+	position: fixed;
+	bottom: 30px;
+	margin-left: -150px;
+}
+#back-top a {
+	width: 60px;
+	display: block;
+	text-align: center;
+	font: 10px/100% "Trebuchet MS", Tahoma;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #8CBED8;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin-bottom: 3px;
+	background: #fff url(../img/up-arrow.png) no-repeat center center;
+	/* rounded corners */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/* background color transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
+
+/* home-menu */
+.home-menu td{
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+}
+
+/* info */
+div.info{
+	border: solid 3px #ccc;
+	border-radius: 8px;
+	padding: 5px 15px 15px 15px;
+	background:url(../img/block_c.png);
+}
+table.info td{
+	padding: 8px;
+	border-bottom: solid 1px #ccc;
+	font-weight: bold;
+}
+
+/* table detail*/
+table.detail th, table.detail td{
+	border: solid 1px #8BD23F;
+	padding: 5px;
+	text-align: center
+}
+table.detail th{
+	background: #8BD23F;
+	color: #fff;
+}
+
+/* table list non kilo*/
+table.listsatu th{
+	background: #8BD23F;
+	color: #fff;
+	padding: 5px;
+}
+table.listsatu td{
+	border-bottom: dashed 1px #8BD23F;
+	padding: 3px 10px;
+	text-align: center
+}
+
+/* list heading */
+div.list, div.list-ui{
+	font-size: 23px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Tahoma;
+	border-bottom: solid 1px;
+}
+div.list{
+	color: green;
+}
+div.list-ui{
+	color: #666;
+}
+
+/* laundry */
+table.laundry{
+	font-weight: bold;
+	font-size: 20px;
+}
+table.laundry input{
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #666;
+}
+
+/* tombol */
+a.tombol{
+	text-decoration: none;
+	border: solid 1px #ADA15C;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #ccc;
+	padding: 6px 10px;
+	background: url(../img/button-nya.png);
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff !important;
+}
+a.tombol:hover{
+	border: solid 1px #ADA15C;
+	background: url(../img/button-hover.png);
+	color: #666 !important;
+}
+a.tombol:active{
+	border: solid 1px #ADA15C;
+	background: url(../img/button-active.png);
+	color: #fff !important;
+}
+
+/* harga */
+div.total{
+	padding:5px 10px;
+	border:solid 2px #ccc;
+	border-radius: 7px;
+	background:url(../img/block_c.png);
+}
+div.total input{
+	border:0px;
+	padding:0px;
+	background:transparent;
+	font-size:25px;
+	color:purple;
+	text-align:right;
+	margin-top:-6px;
+}
+div.total table{
+	font-weight:bold;
+	font-size:25px;
+	color:purple;
+}
+input.harga{
+	border:none;
+	color:#000;
+	background:transparent;
+	margin-top:-3px;
+}
+
+/* increment */
+.button {
+  float:left;
+  width:15px;
+  height:17px;
+  border:solid 1px #ccc;
+  border-radius:3px;
+  box-shadow: 1px 1px 2px #ccc;
+  background-color:#7dc62f;
+  color: #fff;
+  font-weight:bold;
+  margin-top:1px;
+  margin-left:1px;
+  cursor:pointer;
+  text-align:center;
+}
+.button:hover {
+  background-color:#b3e281;
+  color: #666;
+}
+
+/* judul selamat datang */
+div.welcome{
+	padding:5px 10px 2px 10px;
+	margin-top:-15px;
+	font-weight:bold;
+	font-size:30px;
+	font-family:"Segoe Print"
+}
+
+/* pesan */
+div.pesan{
+	font-family: "Trebuchet MS", Tahoma;
+	padding:15px;
+	border:solid 2px #ccc;
+	border-radius: 7px;
+	background:url(../img/block_c.png);
+}
+div.pesan div.judul{
+	font-weight: bold;
+	font-size: 24px;
+	color:purple;
+	border-bottom:solid 1px purple;
+}
+div.pesan div.isi{
+	padding:5px;
+	font-size: 16px;
+	color:purple;
+}
+div.pesan div.kosong{
+	font-weight: bold;
+	font-size: 16px;
+	color:purple;
+	text-align: center;
+}
+
+/* TAB */
+div.tabtrans{
+}
+div.acttab, div.nontab{
+	float:left;
+	padding: 0.2em 1.5em 0em 1.5em;
+}
+div.acttab a h2{
+	color: #72B723;
+	cursor: pointer;
+}
+div.nontab a h2{
+	color: #ccc;
+	cursor: pointer;
+}
+div.nontab a:hover h2{
+	color: #B3E281;
+}
