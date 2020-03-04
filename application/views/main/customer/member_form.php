@@ -158,11 +158,23 @@ $(document).ready(function() {
 											<input type="hidden" name="rup" value="<?php echo set_value('rup', isset($default['rup']) ? $default['rup'] : ''); ?>"/><b>
 											<?php echo set_value('rup', isset($default['rup']) ? $default['rup'] : ''); ?> &nbsp; <a id='add-depo' class='add'>Tambah Deposit</a></b>
 									<?php }else if(set_value('jenisbaru', isset($default['jenisbaru']) ? $default['jenisbaru'] : '') == "Asrut"){ ?>
-											<input type="hidden" name="asr" value="<?php echo set_value('asr', isset($default['asr']) ? $default['asr'] : ''); ?>"/><b>
-											<?php echo set_value('asr', isset($default['asr']) ? $default['asr'] : ''); ?> &nbsp; <a id='add-asr' class='add'>Tambah Masa Aktif</a></b>
+											<input type="text" name="saldo_kg" value="<?php echo set_value('asr', isset($default['asr']) ? $default['asr'] : ''); ?>"/>Kg<b>
+
 									<?php } ?>
 										</td>
 									</tr>
+                                    <tr>
+                                        <td>Tgl Reset Saldo</td>
+                                        <td>
+                                            <input type="date" name="checkpoint" value="<?php echo set_value('checkpoint', isset($default['checkpoint']) ? $default['checkpoint'] : ''); ?>">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Masa aktif</td>
+                                        <td><?= $default['akhirKg'] ?> <a id='add-asr' class='add'>Tambah Masa Aktif</a></td>
+
+                                    </tr>
+
 								<?php } ?>
 									<tr>
 										<td colspan="2">&nbsp;</td>

@@ -45,6 +45,8 @@ class Customer extends CI_Controller {
 		$data['default']['jenisbaru'] = $this->session->userdata('jenismember');
 		if($status == 'Ubah'){
 			$member = $this->Model_general->getDataBy("wl_member","id_member",$id)->row();
+
+
 			$data['default']['kode'] = $member->id_member;
 			$data['default']['namabaru'] = $member->nama_member;
 			$data['default']['alamatbaru'] = $member->alamat_member;
@@ -55,7 +57,10 @@ class Customer extends CI_Controller {
 			$data['default']['agamabaru'] = $member->agama;
 			$data['default']['kilo'] = $member->saldo_kg . " Kg";
 			$data['default']['rup'] = "Rp " . number_format($member->saldo_rp,0,',','.') . ",-";
-			$data['default']['asr'] = $member->saldo_kg . " Kg (" . $member->akhir_kg . ")";
+			$data['default']['asr'] = $member->saldo_kg;
+			$data['default']['akhirKg'] =  $member->akhir_kg;
+			$data['default']['checkpoint'] = $this->formatDate($member->checkpoint, 'EDIT') ;
+
 		} else {
 			if ( $error == 'YES' ){
 				$data['default']['kode'] = $this->input->post('kode');
@@ -73,6 +78,17 @@ class Customer extends CI_Controller {
 
 		$this->load->view('template', $data);
 	}
+
+	function formatDate($date,$type) {
+        $time = strtotime($date);
+        if ($type == 'EDIT'){
+            $newformat = date('Y-m-d',$time);
+        }else if ($type == 'POST') {
+            $newformat = date('Y/m/d',$time);
+        }
+
+        return $newformat;
+    }
 	function member_process($id,$status) {
 		if ($this->form_validation->run("fMember") == FALSE){
 			$this->member_form($id,$status,"YES");
@@ -135,6 +151,8 @@ class Customer extends CI_Controller {
 									'tmpt_lhr_member' => $this->input->post('tmptbaru'),
 									'tgl_lhr_member' => $this->input->post('tglbaru'),
 									'agama' => $this->input->post('agamabaru'),
+									'saldo_kg' => $this->input->post('saldo_kg'),
+									'checkpoint' => $this->formatDate($this->input->post('checkpoint'), 'POST') ,
 									"export" => "Yes"
 							);
 				$this->Model_general->updateData("wl_member","id_member",$id,$param_member);
