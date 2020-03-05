@@ -158,7 +158,7 @@ $(document).ready(function() {
 											<input type="hidden" name="rup" value="<?php echo set_value('rup', isset($default['rup']) ? $default['rup'] : ''); ?>"/><b>
 											<?php echo set_value('rup', isset($default['rup']) ? $default['rup'] : ''); ?> &nbsp; <a id='add-depo' class='add'>Tambah Deposit</a></b>
 									<?php }else if(set_value('jenisbaru', isset($default['jenisbaru']) ? $default['jenisbaru'] : '') == "Asrut"){ ?>
-											<input type="text" name="saldo_kg" value="<?php echo set_value('asr', isset($default['asr']) ? $default['asr'] : ''); ?>"/>Kg<b>
+											<input type="number" min="0" max="20" id="saldo_kg" name="saldo_kg" value="<?php echo set_value('asr', isset($default['asr']) ? $default['asr'] : ''); ?>"/>Kg<b>
 
 									<?php } ?>
 										</td>
@@ -166,13 +166,15 @@ $(document).ready(function() {
                                     <tr>
                                         <td>Tgl Reset Saldo</td>
                                         <td>
-                                            <input type="date" name="checkpoint" value="<?php echo set_value('checkpoint', isset($default['checkpoint']) ? $default['checkpoint'] : ''); ?>">
+                                            <input type="date" name="checkpoint" value="<?php echo set_value('checkpoint', isset($default['checkpoint']) ? $default['checkpoint'] : ''); ?>"> bulan/tgl/tahun
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Masa aktif</td>
-                                        <td><?= $default['akhirKg'] ?> <a id='add-asr' class='add'>Tambah Masa Aktif</a></td>
+                                        <td>
+                                            <input type="date" name="akhirKg" value="<?php echo set_value('akhirKg', isset($default['akhirKg']) ? $default['akhirKg'] : ''); ?>">bulan/tgl/tahun
 
+                                        </td>
                                     </tr>
 
 								<?php } ?>

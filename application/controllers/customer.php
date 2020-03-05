@@ -58,7 +58,7 @@ class Customer extends CI_Controller {
 			$data['default']['kilo'] = $member->saldo_kg . " Kg";
 			$data['default']['rup'] = "Rp " . number_format($member->saldo_rp,0,',','.') . ",-";
 			$data['default']['asr'] = $member->saldo_kg;
-			$data['default']['akhirKg'] =  $member->akhir_kg;
+			$data['default']['akhirKg'] = $this->formatDate($member->akhir_kg, "EDIT") ;
 			$data['default']['checkpoint'] = $this->formatDate($member->checkpoint, 'EDIT') ;
 
 		} else {
@@ -153,6 +153,7 @@ class Customer extends CI_Controller {
 									'agama' => $this->input->post('agamabaru'),
 									'saldo_kg' => $this->input->post('saldo_kg'),
 									'checkpoint' => $this->formatDate($this->input->post('checkpoint'), 'POST') ,
+									'akhir_kg' => $this->formatDate($this->input->post('akhirKg'), 'POST') ,
 									"export" => "Yes"
 							);
 				$this->Model_general->updateData("wl_member","id_member",$id,$param_member);

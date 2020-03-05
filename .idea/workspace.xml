@@ -31,10 +31,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/customer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="154" column="113" lean-forward="true" selection-start-line="154" selection-start-column="113" selection-end-line="154" selection-end-column="113" />
+            <state relative-caret-position="160">
+              <caret line="60" column="84" selection-start-line="60" selection-start-column="84" selection-end-line="60" selection-end-column="84" />
               <folding>
                 <element signature="n#delete_member#0;n#Customer#0;n#!!top" />
+                <element signature="n#kompMember#0;n#Customer#0;n#!!top" />
+                <element signature="n#printHMember#0;n#Customer#0;n#!!top" />
+                <element signature="n#generateCode#0;n#Customer#0;n#!!top" />
+                <element signature="n#detailDeposit#0;n#Customer#0;n#!!top" />
+                <element signature="n#cetakDeposit#0;n#Customer#0;n#!!top" />
+                <element signature="n#printHDepo#0;n#Customer#0;n#!!top" />
+                <element signature="n#cekPegawai#0;n#Customer#0;n#!!top" />
+                <element signature="n#generateDeposit#0;n#Customer#0;n#!!top" />
+                <element signature="n#getMasa#0;n#Customer#0;n#!!top" />
+                <element signature="n#kirimWarning#0;n#Customer#0;n#!!top" />
+                <element signature="n#sendSMS#0;n#Customer#0;n#!!top" />
+                <element signature="n#nonmem#0;n#Customer#0;n#!!top" />
+                <element signature="n#non_form#0;n#Customer#0;n#!!top" />
+                <element signature="n#non_process#0;n#Customer#0;n#!!top" />
+                <element signature="n#tabelNon#0;n#Customer#0;n#!!top" />
+                <element signature="n#histNon#0;n#Customer#0;n#!!top" />
+                <element signature="n#kompNon#0;n#Customer#0;n#!!top" />
+                <element signature="n#printHNon#0;n#Customer#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -43,8 +61,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/main/customer/member_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="166" column="59" selection-start-line="166" selection-start-column="59" selection-end-line="166" selection-end-column="59" />
+            <state relative-caret-position="101">
+              <caret line="168" column="187" lean-forward="true" selection-start-line="168" selection-start-column="187" selection-end-line="168" selection-end-column="187" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/main/customer/deposit_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="96" column="41" lean-forward="true" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+              <folding>
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#div#1;n#!!top" />
+                <element signature="n#div#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#div#2;n#!!top" />
+                <element signature="e#4739#4898#0#HTML" />
+                <element signature="e#5085#5533#0#HTML" />
+                <element signature="e#5577#5622#0#HTML" />
+                <element signature="e#5655#6150#0#HTML" />
+                <element signature="e#6194#6239#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,26 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/main/customer/member.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/main/customer/member_detail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/administrator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="119">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -79,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/aktivitas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <element signature="n#jobMonitor#0;n#Aktivitas#0;n#!!top" />
                 <element signature="n#tabelAktivitas#0;n#Aktivitas#0;n#!!top" />
@@ -101,13 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sha</find>
-      <find>member_process</find>
-      <find>pegawai</find>
-      <find>wl_member</find>
-      <find>index</find>
-      <find>update</find>
-      <find>resetAsrut</find>
       <find>reset</find>
       <find>member</find>
       <find>userdata</find>
@@ -129,8 +141,15 @@
       <find>&lt;input</find>
       <find>form</find>
       <find>$form_member</find>
-      <find>add-asr</find>
       <find>$warning</find>
+      <find>Tambah masa ak</find>
+      <find>add</find>
+      <find>tambah</find>
+      <find>add-asr</find>
+      <find>button</find>
+      <find>deposit_action</find>
+      <find>deposit_process</find>
+      <find>formatDa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,8 +166,8 @@
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/models/model_laundry.php" />
         <option value="$PROJECT_DIR$/application/controllers/aktivitas.php" />
-        <option value="$PROJECT_DIR$/application/views/main/customer/member_detail.php" />
         <option value="$PROJECT_DIR$/application/views/template.php" />
+        <option value="$PROJECT_DIR$/application/views/main/customer/member_detail.php" />
         <option value="$PROJECT_DIR$/application/views/main/customer/member_form.php" />
         <option value="$PROJECT_DIR$/application/controllers/customer.php" />
       </list>
@@ -196,12 +215,6 @@
               <item name="waroenk" type="b2602c69:ProjectViewProjectNode" />
               <item name="waroenk" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="waroenk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="waroenk" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -210,14 +223,6 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="waroenk" type="b2602c69:ProjectViewProjectNode" />
-              <item name="waroenk" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="waroenk" type="b2602c69:ProjectViewProjectNode" />
@@ -276,18 +281,19 @@
       <workItem from="1564968090196" duration="2815000" />
       <workItem from="1583230916604" duration="8499000" />
       <workItem from="1583246285446" duration="7211000" />
-      <workItem from="1583318002991" duration="2687000" />
+      <workItem from="1583318002991" duration="6984000" />
+      <workItem from="1583372463403" duration="1602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61180000" />
+    <option name="totallyTimeSpent" value="67079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27836612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28290468" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,9 +318,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/libraries/Cache/._Cache.php" />
-    <entry file="file://$PROJECT_DIR$/themes/js/._jquery-1.9.1.js" />
-    <entry file="file://$PROJECT_DIR$/themes/js/._jquery-barcode.js" />
     <entry file="file://$PROJECT_DIR$/themes/js/jquery-1.9.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -430,11 +433,6 @@
     <entry file="file://$PROJECT_DIR$/application/views/main/karyawan/top_menu.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/main/customer/deposit_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2397" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/main/sx_login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
@@ -458,9 +456,6 @@
           <caret line="42" column="55" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="55" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/main/customer/transaksi_history.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/system/database/DB.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -514,15 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/main/customer/deposit_detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/home.php">
@@ -558,8 +545,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/aset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="30" lean-forward="true" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/main/customer/transaksi_history.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/main/customer/deposit_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-661" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/main/customer/deposit_cetak.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1086" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/main/customer/member_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/third_party/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/main/customer/member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -570,10 +596,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/main/customer/deposit_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="96" column="41" lean-forward="true" selection-start-line="96" selection-start-column="41" selection-end-line="96" selection-end-column="41" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#div#0;n#td#1;n#tr#2;n#table#0;n#form#0;n#div#2;n#!!top" />
+            <element signature="e#4739#4898#0#HTML" />
+            <element signature="e#5085#5533#0#HTML" />
+            <element signature="e#5577#5622#0#HTML" />
+            <element signature="e#5655#6150#0#HTML" />
+            <element signature="e#6194#6239#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/aktivitas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="75">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="n#jobMonitor#0;n#Aktivitas#0;n#!!top" />
             <element signature="n#tabelAktivitas#0;n#Aktivitas#0;n#!!top" />
@@ -589,33 +639,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/main/customer/member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/main/customer/member_detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/main/customer/member_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="166" column="59" selection-start-line="166" selection-start-column="59" selection-end-line="166" selection-end-column="59" />
+        <state relative-caret-position="101">
+          <caret line="168" column="187" lean-forward="true" selection-start-line="168" selection-start-column="187" selection-end-line="168" selection-end-column="187" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/customer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="154" column="113" lean-forward="true" selection-start-line="154" selection-start-column="113" selection-end-line="154" selection-end-column="113" />
+        <state relative-caret-position="160">
+          <caret line="60" column="84" selection-start-line="60" selection-start-column="84" selection-end-line="60" selection-end-column="84" />
           <folding>
             <element signature="n#delete_member#0;n#Customer#0;n#!!top" />
+            <element signature="n#kompMember#0;n#Customer#0;n#!!top" />
+            <element signature="n#printHMember#0;n#Customer#0;n#!!top" />
+            <element signature="n#generateCode#0;n#Customer#0;n#!!top" />
+            <element signature="n#detailDeposit#0;n#Customer#0;n#!!top" />
+            <element signature="n#cetakDeposit#0;n#Customer#0;n#!!top" />
+            <element signature="n#printHDepo#0;n#Customer#0;n#!!top" />
+            <element signature="n#cekPegawai#0;n#Customer#0;n#!!top" />
+            <element signature="n#generateDeposit#0;n#Customer#0;n#!!top" />
+            <element signature="n#getMasa#0;n#Customer#0;n#!!top" />
+            <element signature="n#kirimWarning#0;n#Customer#0;n#!!top" />
+            <element signature="n#sendSMS#0;n#Customer#0;n#!!top" />
+            <element signature="n#nonmem#0;n#Customer#0;n#!!top" />
+            <element signature="n#non_form#0;n#Customer#0;n#!!top" />
+            <element signature="n#non_process#0;n#Customer#0;n#!!top" />
+            <element signature="n#tabelNon#0;n#Customer#0;n#!!top" />
+            <element signature="n#histNon#0;n#Customer#0;n#!!top" />
+            <element signature="n#kompNon#0;n#Customer#0;n#!!top" />
+            <element signature="n#printHNon#0;n#Customer#0;n#!!top" />
           </folding>
         </state>
       </provider>
